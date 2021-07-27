@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head> <!--analogia do cérebro: o head é como o cérebro no nosso corpo-->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/main.css">
+    
+    <!--Responsividade-->
+    <link rel="stylesheet" href="style/responsive.css">
+
+    <!-- Owl CSS-->
+
+    <link rel="stylesheet" href="style/owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="style/owl/owl.theme.default.min.css">
+
+    <title>NETFLIX CLONE</title>
+
+</head>
+<body>
+    <header>
+        <div class = "container">
+            <h2 class="logo">NETFLIX</h2>
+            <nav>
+                <a href="https://www.netflix.com/br/" target="_blank">Início</a>
+                <a href="https://www.netflix.com/br/browse/genre/83" target="_blank">Séries</a>
+                <a href="https://www.netflix.com/br/browse/genre/34399" target="_blank">Filmes</a>
+                <a href="https://www.netflix.com/br/browse/genre/2243108" target="_blank">Documentários</a>
+            </nav>
+        </div>
+    </header>
+
+    <main> <!-- O elemento main é importante para ferramentas de SEO entenderem que se trata do conteúdo principal-->
+        <div class="filme-principal">
+            <div class="container">
+                <h3 class="titulo">THE FLASH</h3>
+                <p class="descricao">Um perito forense desperta de um coma com poderes especiais que serão postos à prova na luta contra forças que ameaçam a cidade.</p>
+                <div class="botoes">
+               <button role="button" class="botao"> <!--O navegador identifica como botão, mas dispositivos móveis podem necessitar da função do botão. [leitores de tela necessitam]-->
+                   
+                    <i class="fas fa-play"></i> <!--Originalmente, o nome da classe que veio copiado do Font Awesome era "fa-solid fa-play", mas estava dando erro. Resolvi então colocar no padrão que o professor Felipe Aguiar mostrou, com "fas" em vez de "fa-solid". Isso aconteceu porque fui buscar o ícone na versão beta do site, enquanto que o script copiado no header pertence à versão normal.-->
+                    ASSISTIR AGORA
+                    
+                    
+                </button>
+    
+                <button role="button" class="botao">
+                    <i class="fas fa-info"></i>
+                    MAIS INFORMAÇÕES
+                </button>
+            </div>
+            
+            </div>          
+        </div>
+    </main>
+
+
+    <div class="carrossel-filmes">
+        <div class="owl-carousel owl-theme">
+           
+            <div class="item">                
+                <a href="https://www.netflix.com/br/title/80066080" target="_blank"><img class="box-filme" src="img/legends.jpg" alt="Poster da série de tv Legends of Tomorrow"></a>
+            </div>
+
+            <div class="item">
+                <a href="https://www.netflix.com/br/title/80057918" target="_blank"><img class="box-filme" src="img/lucifer.jpg" alt="Poster da série de tv Lúcifer"></a>
+                
+            </div>
+            
+            <div class="item">
+                <a href="https://www.netflix.com/br/Title/80186863" target="_blank"> 
+                    <img class="box-filme" src="img/umbrella.jpg" alt="Poster da série de tv The Umbrella Academy">
+                </a>
+               
+            </div>
+
+            <div class="item">
+                <a href="https://www.netflix.com/br/title/80223989" target="_blank">
+                    <img class="box-filme" src="img/sabrina.jpg" alt="Poster da série de tv O Mundo Sombrio de Sabrina">
+                </a>
+                
+            </div>
+            <div class="item">
+                <a href="https://www.netflix.com/br/title/70142436" target="_blank">
+                    <img class="box-filme" src="img/merlin.jpg" alt="Poster da série de tv Merlin">
+                </a>
+                
+            </div>
+
+            <div class="item">
+                <a href="https://www.netflix.com/br/title/70158329" target="_blank">
+                    <img class="box-filme" src="img/tng.jpg" alt="Poster da série de tv Star Trek: The Next Generation">
+                </a>               
+            </div>
+
+            <div class="item">
+                <a href="https://www.netflix.com/br/title/80126024" target="_blank">  
+                    <img class="box-filme" src="img/discovery.jpg" alt="Poster da série de tv Star Trek: Discovery">
+                </a>            
+            </div>
+           
+            <div class="item">
+                <a href="https://www.netflix.com/br/title/80232926" target="_blank"></a>
+                <img class="box-filme" src="img/ragnarok.jpg" alt="Poster da série de tv Ragnarok">
+            </div>
+
+            <div class="item">
+                <a href="https://www.netflix.com/br/title/81011098" target="_blank"></a>
+                <img class="box-filme" src="img/wallander.jpg" alt="Poster da série de tv O Jovem Wallander">
+            </div>
+
+        </div>
+    </div>
+
+    <script src="https://kit.fontawesome.com/d6e302a14f.js" crossorigin="anonymous"></script>
+    <script src="js/owl/jquery.min.js"></script>
+    <script src="js/owl/owl.carousel.min.js"></script> 
+    <script src="js/owl/setup.js"></script>
+    <!--Recomenda-se colocar o script no final do html para que seja a última coisa a ser carregada, evitando erros.-->
+</body>
+</html>

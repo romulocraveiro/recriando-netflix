@@ -1,0 +1,18 @@
+@media screen and (max-width:700px){ /*Condição para que sejam aplicadas as próximas linhas. Caso contrário, volta para as configurações padrão.*/
+    header .container{
+        display: flex;
+        flex-direction: column;
+    }
+    .botao{
+        margin-top: 5px;
+        width:190px;
+        height: 60px;
+    }
+}
+
+@media screen and (min-width: 1000px){
+    .descricao{
+        width: 50%;
+    }
+}
+/*Quando a tela tiver um mínimo de 1000px eu quero que a descrição tenha no máximo 50% tamanho disponível de tela. Ou sejam quando eu aumento o tamanho da tela, a descrição não vai tão longe à direita.*/

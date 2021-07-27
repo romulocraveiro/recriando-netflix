@@ -1,0 +1,114 @@
+
+/* Declaração de variáveis no CSS:  */
+
+:root{
+    --vermelho: #E50914;
+    --preta: #141414;
+}
+
+
+/* resetting the css */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Elementos base*/
+body{
+    background: var(--preta);
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+header .container{
+    display: flex;
+    flex-direction: row; /*Esta linha está aqui por uma questão semântica (mesmo sem ela, os elementos ficariam arrumados horizontalmente*/
+    align-items: center;
+    justify-content: space-between; /* Pra ter um espaço entre o logo e o menu de navegação*/
+}
+
+header .logo{
+    margin-left: 5px; /* Pra afastar um pouco da margem esquerda da página*/
+    color: var(--vermelho);
+    font-family: 'Arial Black', Times;
+    font-size: 40px;
+}
+
+header nav a{
+    text-decoration: none;
+    color: #AAA;
+    margin-right: 10px;
+}
+
+header nav a:hover{
+    color:#fff;
+}
+
+/*Filme Principal*/
+
+.filme-principal{
+    font-size: 16px;
+    background: linear-gradient(rgba(0,0,0, .50), rgba(0,0,0, .50) 100%), url('/img/theflash0.svg'); /* É uma regra que a cor do gradiente tem que ser repetida, senão dá erro*/
+    height: 400px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start; /* Para começar da esquerda para a direita*/
+}
+
+.filme-principal .descricao{
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+.filme-principal .titulo{ /*É boa prática colocar o caminho da classe, começando da mais "global" até a "local"*/
+    margin-top: 15%; /*Sempre que possível, devemos trabalhar com posicionamento fluido, ou seja, com percentual em vez de px aqui neste exemplo*/
+    font-size: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.botao{
+    background-color: rgba(0,0,0,0.50);
+    border: none;
+    color: white;
+    padding: 15px 30px; /* cima/baixo, esquerda/direita*/
+    margin-right: 15px;
+    font-size: 12px;
+    cursor: pointer;
+    
+}
+
+.botao:hover{
+    
+    border-radius: 5px;
+    background-color: white;
+    color: black;
+    transition: .3s ease all;
+
+}
+
+.botao i{
+    margin-right: 8px;
+}
+
+.container{
+    margin-left: 20px;
+}
+
+.filme-principal .container{
+    width:70%; /*Delimitação da largura do container, para que, quando o tamanho da tela mudar, mantenha 60% da largura.*/
+}
+
+/*TAMANHO DAS IMAGENS*/
+
+.box-filme{
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+
+.carrossel-filmes{
+    margin-top: 5px;
+}
