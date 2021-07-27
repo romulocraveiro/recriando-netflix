@@ -30,7 +30,7 @@ _The image I downloaded from TMDB to be th background of the main series was not
 ## Links 
 
 * [Digital Innovation One](https://digitalinnovation.one/);
-* [Link deste projeto](https://romulocraveiro.github.io/pagina-inicial-instagram);
+* [Link deste projeto](https://romulocraveiro.github.io/recriando-netflix/);
 * [The Movie Data Base](https://www.themoviedb.org/)
 
 ## Autor / Author
