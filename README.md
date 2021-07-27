@@ -39,4 +39,4 @@ _The background image of "The Flash" appears locally, but not on the GitHub page
 
 | Foto                                                   | Nome                               | GitHub                                               | Likedin                                                 | E-mail                   |
 | ------------------------------------------------------ | ---------------------------------- | ---------------------------------------------------- | ------------------------------------------------------- | ------------------------ |
-| <img src="./img/instagram-profile.jpeg" width="100px"> | Romulo Craveiro de Sousa Tartaruga | [Romulo Craveiro](https://github.com/romulocraveiro) | [Linkedin](https://www.linkedin.com/in/romulocraveiro/) | romulocraveiro@gmail.com |
+| <img src="./img/fotogit.jpeg" width="100px"> | Romulo Craveiro de Sousa Tartaruga | [Romulo Craveiro](https://github.com/romulocraveiro) | [Linkedin](https://www.linkedin.com/in/romulocraveiro/) | romulocraveiro@gmail.com |
