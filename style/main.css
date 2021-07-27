@@ -49,7 +49,7 @@ header nav a:hover{
 
 .filme-principal{
     font-size: 16px;
-    background: linear-gradient(rgba(0,0,0, .50), rgba(0,0,0, .50) 100%), url('https://github.com/romulocraveiro/recriando-netflix/img/theflash.jpg'); /* É uma regra que a cor do gradiente tem que ser repetida, senão dá erro*/
+    background: linear-gradient(rgba(0,0,0, .50), rgba(0,0,0, .50) 100%), url('./img/theflash.jpg'); /* É uma regra que a cor do gradiente tem que ser repetida, senão dá erro*/
     height: 400px;
     background-size: cover;
     display: flex;
