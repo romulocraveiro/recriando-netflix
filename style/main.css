@@ -12,6 +12,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    text-decoration: none;
 }
 
 /*Elementos base*/
@@ -111,4 +112,20 @@ header nav a:hover{
 
 .carrossel-filmes{
     margin-top: 5px;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    color: rgb(170, 160, 160);
+    margin-top: 50px;
+}
+
+footer a{
+    color:rgb(170, 160, 160); 
+}
+.fab {
+    font-size:20px; 
+    color: rgb(170, 160, 160);
+    margin-left: 5px;
 }

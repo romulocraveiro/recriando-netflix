@@ -8,7 +8,16 @@
         width:190px;
         height: 60px;
     }
-}
+    footer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width:100%;
+        padding: 2%;
+        }
+    }
+
 
 @media screen and (min-width: 1000px){
     .descricao{
