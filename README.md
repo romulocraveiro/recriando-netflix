@@ -2,8 +2,8 @@
 
 ## Objetivos / Aims
 
-* Recriar uma página da Netflix com um carrossel, como avaliação parcial do Bootcamp HTML Web Developer, da Digital Innovation one
-* <i> Rebuild a Netflix page with a carousel as part of the assessment of the Digital Innovation One HTNL Web Developer Bootcamp</i>
+* Recriar uma página da Netflix com um carrossel, como avaliação parcial do Bootcamp HTML Web Developer, da Digital Innovation One. Professor: Felipe Aguiar.
+* <i> Rebuild a Netflix page with a carousel as part of the assessment of the Digital Innovation One HTNL Web Developer Bootcamp. Professor: Felipe Aguiar.</i>
 
 ## Problemas que consegui resolver / A problem I was able to solve
 
